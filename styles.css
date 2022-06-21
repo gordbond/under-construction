@@ -1,0 +1,32 @@
+.imgCont{
+    max-width: 500px;
+    margin: auto;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imgCont img{
+    width: 100%;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 900px) {
+    h1{
+        font-size: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
